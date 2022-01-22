@@ -1,0 +1,22 @@
+.sort-div{
+  
+  position: relative;
+  .card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 7px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .sorts-div {
+    width: 100%;
+    background-color: #FF851B;
+    .btn-group{
+      margin-left: 20px;
+      padding: 20px;
+      left: 40%;
+  
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.mcon {
+  text-align: center;
+
+  .main-containerr {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 1000;
+
+    .content {
+      width: 50px;
+      height: 50px;
+      background-color: #2e2033;
+      margin: 2px;
+      border: solid 1px black;
+    }
+
+    ul {
+      li {
+        list-style: none;
+        float: left;
+      }
+    }
+
+  }
+
+  .search {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: solid 1px black;
+    height: 50px;
+    width: 150px;
+  }
+
+  .msg1 {
+    width: 100%;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+
+    .msg {
+      text-align: center;
+      margin-top: 15px;
+      //display: inlineblock;
+      border: solid 1px black;
+      height: 100px;
+      width: 150px;
+    }
+  }
+
+  .searchC {
+    left: 30%;
+    margin-top: 10px;
+  }
+}

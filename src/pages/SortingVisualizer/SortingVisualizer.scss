@@ -1,0 +1,181 @@
+.sorts-div {
+  width: 100%;
+  background-color: #FF851B;
+
+  .btn-group {
+    margin-left: 20px;
+    padding: 20px;
+    left: 20%;
+
+  }
+
+  .btn {
+    padding: 10px;
+  }
+}
+
+.array-container {
+  padding-top: 10px;
+  position: absolute;
+  //new
+  width: 100%;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+  //transform: rotate(180deg);
+
+  .array-bar {
+    text-align: center;
+    // /position: relative;
+    width: 2px;
+    display: inline-block;
+    margin: 0 1px;
+
+    h5 {
+      opacity: 0;
+    }
+
+  }
+
+  /* top: 100px; */
+}
+
+.typewriter {
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+
+}
+
+h4 {
+  display: inline-block;
+}
+
+.typewriter {
+
+
+  b {
+    font-family: monospace;
+    /* Web-safe typewriter-like font */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+      //typing 3.5s steps(30, end),
+      blinking-cursor .5s step-end infinite;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
+.sorts-div {
+  .input{
+    margin-left: 20px;
+  }
+  width: 100%;
+  background-color: #FF851B;
+  ul li {
+    list-style: none;
+  }
+  .btn-group {
+    margin-left: 20px;
+    padding: 20px;
+    left: 20%;
+
+  }
+
+  .btn {
+    padding: 5px;
+  }
+}
+
+.arrays {
+  ul {
+    li {
+      list-style: none;
+      float: left;
+    }
+  }
+}
+
+.array-container2 {
+  .msgg {
+    color: aliceblue;
+  }
+
+  padding-top: 10px;
+  position: absolute;
+  //new
+  width: 100%;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+  //transform: rotate(180deg);
+
+  .array-bar {
+    text-align: center;
+    // /position: relative;
+    width: 30px;
+    display: inline-block;
+    margin: 0 1px;
+
+
+  }
+
+}

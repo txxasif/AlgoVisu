@@ -1,0 +1,33 @@
+.home {
+  h1 {
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    background: rebeccapurple;
+  }
+  .hh {
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    background: rgb(17, 204, 173);
+  }
+  .member {
+    text-align: center;
+    background-color: aqua;
+    ul li {
+      list-style: none;
+      .intro {
+        h2 {
+          color: aliceblue;
+        }
+        padding: 8px;
+        background-color: rgba(10, 253, 112, 0.87);
+      }
+    }
+  }
+  .material {
+    ul li {
+      text-align: center;
+    }
+  }
+}
